@@ -1,0 +1,74 @@
+
+@font-face{
+  font-family:Quicksand-Regular;
+  src: url(Quicksand-Regular.otf);
+}
+
+body
+{
+    background-color:#D7D7D7;
+    
+}
+
+h1
+{
+    text-align: center;
+}
+
+
+h1, h2
+{
+	
+	font-family: Quicksand-Regular, Arial, serif;
+}
+
+h3 
+{
+color:#393697;
+}
+
+img
+{
+    border: 3px black double;
+	box-shadow: 6px 6px 0px black;
+}
+
+section
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+article{
+	width: 360px;
+}
+
+.sidebar {
+	float: left;
+	width: 80px;
+	height: 100vh;
+    background-color: #0F0F0F;
+}
+
+.all{
+	margin-left: 80px;
+}
+
+body{
+	margin-left:0px;
+	margin-top:-22px;
+}
+
+@media screen and (max-width: 1024px)
+{
+.sidebar
+{
+display: none;
+}
+
+section
+{
+display: block;
+}
+}
